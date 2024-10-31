@@ -39,5 +39,4 @@ async function seedDB(){
     await Blog.insertMany(blogs);
     console.log("data seeded successfully")
 }
-
 module.exports=seedDB;
